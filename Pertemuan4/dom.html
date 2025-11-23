@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar DOM</title>
+    <style>
+      * {
+        border: 1px solid black;
+        margin: 10px;
+        padding: 10px;
+      }
+
+      .active{
+        background-color: blue;
+        color: white;
+      }
+
+      .nonActive{
+        background-color: red;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="judul">Judul</h1>
+    <p id="deskripsi">Lorem ipsum dolor sit amet.</p>
+    <section id="a">
+      <p class="p1">Paragraf 1</p>
+      <p class="p2">Paragraf 2</p>
+      <p class="p3">Paragraf 3</p>
+    </section>
+
+    <section id="b">
+      <p>Paragraf 4</p>
+      <a href="">Link</a>
+    </section>
+    <script src="dom.js"></script>
+  </body>
+</html>
